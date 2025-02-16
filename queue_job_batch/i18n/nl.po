@@ -18,141 +18,141 @@ msgstr ""
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_needaction
 msgid "Action Needed"
-msgstr "Action requise"
+msgstr "Noodzakelijke actie"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_ids
 msgid "Activities"
-msgstr "Activités"
+msgstr "Activiteiten"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Activité Exception Décoration"
+msgstr "Activiteit Uitzondering Decoratie"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_state
 msgid "Activity State"
-msgstr "Statut de l'activité"
+msgstr "Staat van activiteit"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Icône de type d'activité"
+msgstr "Activiteit Type Pictogram"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_attachment_count
 msgid "Attachment Count"
-msgstr "Compteur de pièce jointe"
+msgstr "Aantal bijlagen"
 
 #. module: queue_job_batch
 #: model:ir.model,name:queue_job_batch.model_queue_job_batch
 msgid "Batch of jobs"
-msgstr "Lot de travaux"
+msgstr "Partij banen"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__changeset_change_ids
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__changeset_change_ids
 msgid "Changeset Changes"
-msgstr "Changeset Changes"
+msgstr "Wijzigingen Wijzigingen"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__changeset_ids
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__changeset_ids
 msgid "Changesets"
-msgstr "Changements"
+msgstr "Wijzigingssets"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__company_id
 msgid "Company"
-msgstr "Société"
+msgstr "Bedrijf"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__completeness
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_tree
 msgid "Completeness"
-msgstr "Achèvement"
+msgstr "Volledigheid"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__count_changesets
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__count_changesets
 msgid "Count Changesets"
-msgstr "Comptez les modifications"
+msgstr "Tel Wijzigingen"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
-msgstr "Comptez les modifications en cours du jeu de modifications"
+msgstr "In afwachting van wijzigingen tellen"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__count_pending_changesets
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__count_pending_changesets
 msgid "Count Pending Changesets"
-msgstr "Comptez les jeux de modifications en attente"
+msgstr "Aantal Wijzigingen"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__display_name
 msgid "Display Name"
-msgstr "Nom affiché"
+msgstr "Naam weergeven"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__draft
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Draft"
-msgstr "Brouillon"
+msgstr "Concept"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__enqueued
 msgid "Enqueued"
-msgstr "Mis en file d'attente"
+msgstr "Opgeslagen"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__failed_job_count
 msgid "Failed Job Count"
-msgstr "Nombre de travaux échoués"
+msgstr "Aantal mislukte taken"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__failed_percentage
 msgid "Failed Percentage"
-msgstr "Pourcentage d'échec"
+msgstr "Mislukt percentage"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__finished
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Finished"
-msgstr "Terminés"
+msgstr "Afgewerkt"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__finished_job_count
 msgid "Finished Job Count"
-msgstr "Nombre de travaux terminés"
+msgstr "Aantal voltooide opdrachten"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_follower_ids
 msgid "Followers"
-msgstr "Abonnés"
+msgstr "Volgers"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Abonnés (Partenaires)"
+msgstr "Volgers (Partners)"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Font awesome icon e.g. fa-tasks"
+msgstr "Lettertype geweldig pictogram bijv. fa-tasks"
 
 #. module: queue_job_batch
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Group By"
-msgstr "Regrouper par"
+msgstr "Groep door"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__has_message
 msgid "Has Message"
-msgstr "Message"
+msgstr "Heeft bericht"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__id
@@ -162,48 +162,48 @@ msgstr "ID"
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_exception_icon
 msgid "Icon"
-msgstr "Icône"
+msgstr "Icoon"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Icône indiquant une activité d'exception."
+msgstr "Pictogram om een uitzonderingsactiviteit aan te geven."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Si coché, de nouveaux messages requièrent votre attention."
+msgstr "Indien aangevinkt, vereisen nieuwe berichten uw aandacht."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_has_error
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Si coché, des messages n'ont pas pu être livré."
+msgstr "Indien aangevinkt, hebben sommige berichten een leveringsfout."
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__progress
 msgid "In Progress"
-msgstr "En cours"
+msgstr "In uitvoering"
 
 #. module: queue_job_batch
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "In progress"
-msgstr "En cours"
+msgstr "In uitvoering"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_is_follower
 msgid "Is Follower"
-msgstr "Est abonné"
+msgstr "Is Volger"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__is_read
 msgid "Is Read"
-msgstr "Est lu"
+msgstr "Lezen"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__job_ids
 msgid "Job"
-msgstr "Poste"
+msgstr "Job"
 
 #. module: queue_job_batch
 #. odoo-javascript
@@ -213,24 +213,24 @@ msgid ""
 "Job\n"
 "                        Batches"
 msgstr ""
-"Emploi\n"
-"                        Lots"
+"Baan\n"
+"                        Batches"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__job_batch_id
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 msgid "Job Batch"
-msgstr "Lot de travaux"
+msgstr "Batch"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__job_count
 msgid "Job Count"
-msgstr "Nombre de travaux"
+msgstr "Baan Tellen"
 
 #. module: queue_job_batch
 #: model:res.groups,name:queue_job_batch.group_queue_job_batch_user
 msgid "Job Queue Batch User"
-msgstr "Utilisateur des lots de file d'attente de travaux"
+msgstr "Jobwachtrij Batch Gebruiker"
 
 #. module: queue_job_batch
 #. odoo-javascript
@@ -241,124 +241,124 @@ msgstr "Utilisateur des lots de file d'attente de travaux"
 #: model:ir.ui.menu,name:queue_job_batch.menu_queue_job_batch
 #, python-format
 msgid "Job batches"
-msgstr "Lots de travaux"
+msgstr "Batchen"
 
 #. module: queue_job_batch
 #: model:ir.actions.act_window,name:queue_job_batch.action_queue_job_related
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 msgid "Jobs"
-msgstr "Travaux"
+msgstr "Jobs"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch____last_update
 msgid "Last Modified on"
-msgstr "Dernière modification le"
+msgstr "Laatst gewijzigd op"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Pièce jointe principale"
+msgstr "Belangrijkste bijlage"
 
 #. module: queue_job_batch
 #. odoo-javascript
 #: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
 #, python-format
 msgid "Mark as Read"
-msgstr "Marquer comme lu"
+msgstr "Markeren als gelezen"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_has_error
 msgid "Message Delivery error"
-msgstr "Erreur lors de livraison du message"
+msgstr "Fout bij het afleveren van berichten"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_ids
 msgid "Messages"
-msgstr "Messages"
+msgstr "Berichten"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Mon activité Date limite"
+msgstr "Mijn activiteit Deadline"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__name
 msgid "Name"
-msgstr "Nom"
+msgstr "Naam"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "Prochain événement du calendrier d'activités"
+msgstr "Volgende Activiteit Kalender Evenement"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Échéance de la prochaine activité"
+msgstr "Volgende activiteit Deadline"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_summary
 msgid "Next Activity Summary"
-msgstr "Résumé de la prochaine activité"
+msgstr "Volgende Activiteit Overzicht"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_type_id
 msgid "Next Activity Type"
-msgstr "Type de la prochaine activité"
+msgstr "Volgende activiteit"
 
 #. module: queue_job_batch
 #. odoo-javascript
 #: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
 #, python-format
 msgid "No jobs to view."
-msgstr "Aucun travail à voir."
+msgstr "Geen vacatures om te bekijken."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Nombre d'activités"
+msgstr "Aantal acties"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_has_error_counter
 msgid "Number of errors"
-msgstr "Nombre d'erreurs"
+msgstr "Aantal fouten"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Nombre de messages nécessitant une action"
+msgstr "Aantal berichten waarvoor actie nodig is"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Nombre de messages avec erreur de livraison"
+msgstr "Aantal berichten met afleveringsfout"
 
 #. module: queue_job_batch
 #: model:ir.model,name:queue_job_batch.model_queue_job
 msgid "Queue Job"
-msgstr "File d'attente des travaux"
+msgstr "Vacature in wachtrij"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_user_id
 msgid "Responsible User"
-msgstr "Responsable"
+msgstr "Verantwoordelijke gebruiker"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "Erreur d'envoi de SMS"
+msgstr "Fout bij SMS-aflevering"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__smart_search
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__smart_search
 msgid "Smart Search"
-msgstr "Smart Search"
+msgstr "Slim zoeken"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__state
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "State"
-msgstr "État"
+msgstr "Staat"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_state
@@ -368,59 +368,59 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Statut basé sur les activités\n"
-"En retard : La date d'échéance est déjà dépassée\n"
-"Aujourd'hui : L'activité est planifiée pour aujourd'hui\n"
-"Planifiées : activités futures."
+"Status op basis van activiteiten\n"
+"Achterstallig: De vervaldatum is al verstreken\n"
+"Vandaag: De datum van de activiteit is vandaag\n"
+"Gepland: Toekomstige activiteiten."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job__count_pending_changeset_changes
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
-msgstr "Le nombre de modifications en attente de cet enregistrement"
+msgstr "Het aantal lopende wijzigingen van deze record"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job__count_pending_changesets
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__count_pending_changesets
 msgid "The number of pending changesets of this record"
-msgstr "Le nombre de jeux de modifications en attente pour cet enregistrement"
+msgstr "Het aantal hangende wijzigingssets van deze record"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job__count_changesets
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__count_changesets
 msgid "The overall number of changesets of this record"
-msgstr "Le nombre total de modifications de cet enregistrement"
+msgstr "Het totale aantal wijzigingen van deze record"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Type d'activité d'exception enregistrée."
+msgstr "Type geregistreerde uitzonderingsactiviteit."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__user_id
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "User"
-msgstr "Utilisateur"
+msgstr "Gebruiker"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__user_can_see_changeset
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__user_can_see_changeset
 msgid "User Can See Changeset"
-msgstr "L'utilisateur peut voir le jeu de modifications"
+msgstr "Gebruiker kan wijzigingen zien"
 
 #. module: queue_job_batch
 #. odoo-javascript
 #: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
 #, python-format
 msgid "View All"
-msgstr "Voir tout"
+msgstr "Alles bekijken"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__website_message_ids
 msgid "Website Messages"
-msgstr "Messages du site web"
+msgstr "Website berichten"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__website_message_ids
 msgid "Website communication history"
-msgstr "Historique de la communication sur le site web"
+msgstr "Geschiedenis website communicatie"

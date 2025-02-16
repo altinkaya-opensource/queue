@@ -18,141 +18,141 @@ msgstr ""
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_needaction
 msgid "Action Needed"
-msgstr "Action requise"
+msgstr "Необходими действия"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_ids
 msgid "Activities"
-msgstr "Activités"
+msgstr "Дейности"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Activité Exception Décoration"
+msgstr "Дейност Изключение Декорация"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_state
 msgid "Activity State"
-msgstr "Statut de l'activité"
+msgstr "Състояние на дейността"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Icône de type d'activité"
+msgstr "Икона на типа дейност"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_attachment_count
 msgid "Attachment Count"
-msgstr "Compteur de pièce jointe"
+msgstr "Брой на приложенията"
 
 #. module: queue_job_batch
 #: model:ir.model,name:queue_job_batch.model_queue_job_batch
 msgid "Batch of jobs"
-msgstr "Lot de travaux"
+msgstr "Партида от задачи"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__changeset_change_ids
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__changeset_change_ids
 msgid "Changeset Changes"
-msgstr "Changeset Changes"
+msgstr "Промени в набора от промени"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__changeset_ids
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__changeset_ids
 msgid "Changesets"
-msgstr "Changements"
+msgstr "Промени"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__company_id
 msgid "Company"
-msgstr "Société"
+msgstr "Компанията"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__completeness
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_tree
 msgid "Completeness"
-msgstr "Achèvement"
+msgstr "Пълнота"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__count_changesets
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__count_changesets
 msgid "Count Changesets"
-msgstr "Comptez les modifications"
+msgstr "Промени в броя"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
-msgstr "Comptez les modifications en cours du jeu de modifications"
+msgstr "Отчитане на чакащите промени в набора от промени"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__count_pending_changesets
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__count_pending_changesets
 msgid "Count Pending Changesets"
-msgstr "Comptez les jeux de modifications en attente"
+msgstr "Брой чакащи промени"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__display_name
 msgid "Display Name"
-msgstr "Nom affiché"
+msgstr "Показвайте името"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__draft
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Draft"
-msgstr "Brouillon"
+msgstr "Проект"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__enqueued
 msgid "Enqueued"
-msgstr "Mis en file d'attente"
+msgstr "Записани"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__failed_job_count
 msgid "Failed Job Count"
-msgstr "Nombre de travaux échoués"
+msgstr "Брой на неуспешните задачи"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__failed_percentage
 msgid "Failed Percentage"
-msgstr "Pourcentage d'échec"
+msgstr "Процент на неуспешните"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__finished
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Finished"
-msgstr "Terminés"
+msgstr "Готови"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__finished_job_count
 msgid "Finished Job Count"
-msgstr "Nombre de travaux terminés"
+msgstr "Брой завършени задачи"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_follower_ids
 msgid "Followers"
-msgstr "Abonnés"
+msgstr "Последователи"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Abonnés (Partenaires)"
+msgstr "Последователи (партньори)"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Font awesome icon e.g. fa-tasks"
+msgstr "Шрифт страхотна икона, напр. fa-tasks"
 
 #. module: queue_job_batch
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Group By"
-msgstr "Regrouper par"
+msgstr "Група от"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__has_message
 msgid "Has Message"
-msgstr "Message"
+msgstr "Има съобщение"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__id
@@ -162,48 +162,48 @@ msgstr "ID"
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_exception_icon
 msgid "Icon"
-msgstr "Icône"
+msgstr "Icon"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Icône indiquant une activité d'exception."
+msgstr "Икона за обозначаване на дейност по изключение."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Si coché, de nouveaux messages requièrent votre attention."
+msgstr "Ако е проверено, нови съобщения изискват вашето внимание."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_has_error
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Si coché, des messages n'ont pas pu être livré."
+msgstr "Ако е проверено, някои съобщения имат грешка при доставката."
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__progress
 msgid "In Progress"
-msgstr "En cours"
+msgstr "В процес на изпълнение"
 
 #. module: queue_job_batch
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "In progress"
-msgstr "En cours"
+msgstr "В процес на изпълнение"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_is_follower
 msgid "Is Follower"
-msgstr "Est abonné"
+msgstr "Дали е последовател"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__is_read
 msgid "Is Read"
-msgstr "Est lu"
+msgstr "Прочетете"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__job_ids
 msgid "Job"
-msgstr "Poste"
+msgstr "Работа"
 
 #. module: queue_job_batch
 #. odoo-javascript
@@ -213,24 +213,24 @@ msgid ""
 "Job\n"
 "                        Batches"
 msgstr ""
-"Emploi\n"
-"                        Lots"
+"Работа\n"
+"                        Партиди"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__job_batch_id
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 msgid "Job Batch"
-msgstr "Lot de travaux"
+msgstr "Партида за работа"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__job_count
 msgid "Job Count"
-msgstr "Nombre de travaux"
+msgstr "Брой работни места"
 
 #. module: queue_job_batch
 #: model:res.groups,name:queue_job_batch.group_queue_job_batch_user
 msgid "Job Queue Batch User"
-msgstr "Utilisateur des lots de file d'attente de travaux"
+msgstr "Потребител на партида в опашката за задачи"
 
 #. module: queue_job_batch
 #. odoo-javascript
@@ -241,112 +241,112 @@ msgstr "Utilisateur des lots de file d'attente de travaux"
 #: model:ir.ui.menu,name:queue_job_batch.menu_queue_job_batch
 #, python-format
 msgid "Job batches"
-msgstr "Lots de travaux"
+msgstr "Партиди от задачи"
 
 #. module: queue_job_batch
 #: model:ir.actions.act_window,name:queue_job_batch.action_queue_job_related
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 msgid "Jobs"
-msgstr "Travaux"
+msgstr "Работни места"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch____last_update
 msgid "Last Modified on"
-msgstr "Dernière modification le"
+msgstr "Последна промяна на"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Pièce jointe principale"
+msgstr "Основно приложение"
 
 #. module: queue_job_batch
 #. odoo-javascript
 #: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
 #, python-format
 msgid "Mark as Read"
-msgstr "Marquer comme lu"
+msgstr "Маркирайте като прочетен"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_has_error
 msgid "Message Delivery error"
-msgstr "Erreur lors de livraison du message"
+msgstr "Грешка при доставката на съобщението"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_ids
 msgid "Messages"
-msgstr "Messages"
+msgstr "Съобщения"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Mon activité Date limite"
+msgstr "Моята дейност Краен срок"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__name
 msgid "Name"
-msgstr "Nom"
+msgstr "Име"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "Prochain événement du calendrier d'activités"
+msgstr "Следващото събитие от календара на дейностите"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Échéance de la prochaine activité"
+msgstr "Следваща дейност Краен срок"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_summary
 msgid "Next Activity Summary"
-msgstr "Résumé de la prochaine activité"
+msgstr "Следваща дейност Резюме"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_type_id
 msgid "Next Activity Type"
-msgstr "Type de la prochaine activité"
+msgstr "Следващ тип дейност"
 
 #. module: queue_job_batch
 #. odoo-javascript
 #: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
 #, python-format
 msgid "No jobs to view."
-msgstr "Aucun travail à voir."
+msgstr "Няма работни места за разглеждане."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Nombre d'activités"
+msgstr "Брой действия"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_has_error_counter
 msgid "Number of errors"
-msgstr "Nombre d'erreurs"
+msgstr "Брой грешки"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Nombre de messages nécessitant une action"
+msgstr "Брой съобщения, изискващи действие"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Nombre de messages avec erreur de livraison"
+msgstr "Брой съобщения с грешка при доставката"
 
 #. module: queue_job_batch
 #: model:ir.model,name:queue_job_batch.model_queue_job
 msgid "Queue Job"
-msgstr "File d'attente des travaux"
+msgstr "Работа на опашката"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_user_id
 msgid "Responsible User"
-msgstr "Responsable"
+msgstr "Отговорен потребител"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "Erreur d'envoi de SMS"
+msgstr "Грешка при доставката на SMS"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__smart_search
@@ -358,7 +358,7 @@ msgstr "Smart Search"
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__state
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "State"
-msgstr "État"
+msgstr "Държава"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_state
@@ -368,59 +368,59 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Statut basé sur les activités\n"
-"En retard : La date d'échéance est déjà dépassée\n"
-"Aujourd'hui : L'activité est planifiée pour aujourd'hui\n"
-"Planifiées : activités futures."
+"Статус въз основа на дейностите\n"
+"Просрочено: Срокът за изпълнение вече е изтекъл\n"
+"Днес: Датата на дейността е днес\n"
+"Планирано: Бъдещи дейности."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job__count_pending_changeset_changes
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
-msgstr "Le nombre de modifications en attente de cet enregistrement"
+msgstr "Брой на предстоящите промени на този запис"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job__count_pending_changesets
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__count_pending_changesets
 msgid "The number of pending changesets of this record"
-msgstr "Le nombre de jeux de modifications en attente pour cet enregistrement"
+msgstr "Броят на чакащите промени в този запис"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job__count_changesets
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__count_changesets
 msgid "The overall number of changesets of this record"
-msgstr "Le nombre total de modifications de cet enregistrement"
+msgstr "Общ брой на промените в този запис"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Type d'activité d'exception enregistrée."
+msgstr "Вид на записаната дейност по изключение."
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__user_id
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "User"
-msgstr "Utilisateur"
+msgstr "Потребител"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__user_can_see_changeset
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__user_can_see_changeset
 msgid "User Can See Changeset"
-msgstr "L'utilisateur peut voir le jeu de modifications"
+msgstr "Потребителят може да види набора от промени"
 
 #. module: queue_job_batch
 #. odoo-javascript
 #: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
 #, python-format
 msgid "View All"
-msgstr "Voir tout"
+msgstr "Вижте всички"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__website_message_ids
 msgid "Website Messages"
-msgstr "Messages du site web"
+msgstr "Съобщения на уебсайта"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__website_message_ids
 msgid "Website communication history"
-msgstr "Historique de la communication sur le site web"
+msgstr "История на комуникацията на уебсайта"

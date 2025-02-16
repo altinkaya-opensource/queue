@@ -6,6 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-14 19:25+0000\n"
+"PO-Revision-Date: 2025-02-14 19:25+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,6 +25,36 @@ msgstr ""
 #. module: base_import_async
 #: model:ir.model,name:base_import_async.model_base_import_import
 msgid "Base Import"
+msgstr ""
+
+#. module: base_import_async
+#: model:ir.model.fields,field_description:base_import_async.field_base_import_import__changeset_change_ids
+#: model:ir.model.fields,field_description:base_import_async.field_queue_job__changeset_change_ids
+msgid "Changeset Changes"
+msgstr ""
+
+#. module: base_import_async
+#: model:ir.model.fields,field_description:base_import_async.field_base_import_import__changeset_ids
+#: model:ir.model.fields,field_description:base_import_async.field_queue_job__changeset_ids
+msgid "Changesets"
+msgstr ""
+
+#. module: base_import_async
+#: model:ir.model.fields,field_description:base_import_async.field_base_import_import__count_changesets
+#: model:ir.model.fields,field_description:base_import_async.field_queue_job__count_changesets
+msgid "Count Changesets"
+msgstr ""
+
+#. module: base_import_async
+#: model:ir.model.fields,field_description:base_import_async.field_base_import_import__count_pending_changeset_changes
+#: model:ir.model.fields,field_description:base_import_async.field_queue_job__count_pending_changeset_changes
+msgid "Count Pending Changeset Changes"
+msgstr ""
+
+#. module: base_import_async
+#: model:ir.model.fields,field_description:base_import_async.field_base_import_import__count_pending_changesets
+#: model:ir.model.fields,field_description:base_import_async.field_queue_job__count_pending_changesets
+msgid "Count Pending Changesets"
 msgstr ""
 
 #. module: base_import_async
@@ -51,6 +83,36 @@ msgstr ""
 #. module: base_import_async
 #: model:ir.model,name:base_import_async.model_queue_job
 msgid "Queue Job"
+msgstr ""
+
+#. module: base_import_async
+#: model:ir.model.fields,field_description:base_import_async.field_base_import_import__smart_search
+#: model:ir.model.fields,field_description:base_import_async.field_queue_job__smart_search
+msgid "Smart Search"
+msgstr ""
+
+#. module: base_import_async
+#: model:ir.model.fields,help:base_import_async.field_base_import_import__count_pending_changeset_changes
+#: model:ir.model.fields,help:base_import_async.field_queue_job__count_pending_changeset_changes
+msgid "The number of pending changes of this record"
+msgstr ""
+
+#. module: base_import_async
+#: model:ir.model.fields,help:base_import_async.field_base_import_import__count_pending_changesets
+#: model:ir.model.fields,help:base_import_async.field_queue_job__count_pending_changesets
+msgid "The number of pending changesets of this record"
+msgstr ""
+
+#. module: base_import_async
+#: model:ir.model.fields,help:base_import_async.field_base_import_import__count_changesets
+#: model:ir.model.fields,help:base_import_async.field_queue_job__count_changesets
+msgid "The overall number of changesets of this record"
+msgstr ""
+
+#. module: base_import_async
+#: model:ir.model.fields,field_description:base_import_async.field_base_import_import__user_can_see_changeset
+#: model:ir.model.fields,field_description:base_import_async.field_queue_job__user_can_see_changeset
+msgid "User Can See Changeset"
 msgstr ""
 
 #. module: base_import_async

@@ -18,141 +18,141 @@ msgstr ""
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_needaction
 msgid "Action Needed"
-msgstr "Action requise"
+msgstr "必要なアクション"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_ids
 msgid "Activities"
-msgstr "Activités"
+msgstr "活動内容"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Activité Exception Décoration"
+msgstr "アクティビティの例外装飾"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_state
 msgid "Activity State"
-msgstr "Statut de l'activité"
+msgstr "活動状況"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Icône de type d'activité"
+msgstr "アクティビティタイプアイコン"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_attachment_count
 msgid "Attachment Count"
-msgstr "Compteur de pièce jointe"
+msgstr "添付ファイル数"
 
 #. module: queue_job_batch
 #: model:ir.model,name:queue_job_batch.model_queue_job_batch
 msgid "Batch of jobs"
-msgstr "Lot de travaux"
+msgstr "バッチジョブ"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__changeset_change_ids
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__changeset_change_ids
 msgid "Changeset Changes"
-msgstr "Changeset Changes"
+msgstr "チェンジセットの変更"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__changeset_ids
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__changeset_ids
 msgid "Changesets"
-msgstr "Changements"
+msgstr "チェンジセット"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__company_id
 msgid "Company"
-msgstr "Société"
+msgstr "会社概要"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__completeness
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_tree
 msgid "Completeness"
-msgstr "Achèvement"
+msgstr "完全性"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__count_changesets
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__count_changesets
 msgid "Count Changesets"
-msgstr "Comptez les modifications"
+msgstr "チェンジセット数"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
-msgstr "Comptez les modifications en cours du jeu de modifications"
+msgstr "保留中のチェンジセットの変更をカウント"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__count_pending_changesets
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__count_pending_changesets
 msgid "Count Pending Changesets"
-msgstr "Comptez les jeux de modifications en attente"
+msgstr "保留中のチェンジセットをカウント"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__display_name
 msgid "Display Name"
-msgstr "Nom affiché"
+msgstr "表示名"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__draft
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Draft"
-msgstr "Brouillon"
+msgstr "草案"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__enqueued
 msgid "Enqueued"
-msgstr "Mis en file d'attente"
+msgstr "予約済み"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__failed_job_count
 msgid "Failed Job Count"
-msgstr "Nombre de travaux échoués"
+msgstr "失敗したジョブ数"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__failed_percentage
 msgid "Failed Percentage"
-msgstr "Pourcentage d'échec"
+msgstr "失敗率"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__finished
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Finished"
-msgstr "Terminés"
+msgstr "完成品"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__finished_job_count
 msgid "Finished Job Count"
-msgstr "Nombre de travaux terminés"
+msgstr "完成ジョブ数"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_follower_ids
 msgid "Followers"
-msgstr "Abonnés"
+msgstr "フォロワー"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Abonnés (Partenaires)"
+msgstr "フォロワー（パートナー）"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "Font awesome icon e.g. fa-tasks"
+msgstr "フォント素晴らしいアイコン例：fa-tasks"
 
 #. module: queue_job_batch
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "Group By"
-msgstr "Regrouper par"
+msgstr "グループ別"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__has_message
 msgid "Has Message"
-msgstr "Message"
+msgstr "メッセージ"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__id
@@ -162,48 +162,48 @@ msgstr "ID"
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_exception_icon
 msgid "Icon"
-msgstr "Icône"
+msgstr "アイコン"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Icône indiquant une activité d'exception."
+msgstr "例外アクティビティを示すアイコン"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Si coché, de nouveaux messages requièrent votre attention."
+msgstr "チェックした場合、新しいメッセージに注意が必要です。"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_has_error
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Si coché, des messages n'ont pas pu être livré."
+msgstr "チェックした場合、一部のメッセージで配信エラーが発生します。"
 
 #. module: queue_job_batch
 #: model:ir.model.fields.selection,name:queue_job_batch.selection__queue_job_batch__state__progress
 msgid "In Progress"
-msgstr "En cours"
+msgstr "進行中"
 
 #. module: queue_job_batch
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "In progress"
-msgstr "En cours"
+msgstr "進行中"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_is_follower
 msgid "Is Follower"
-msgstr "Est abonné"
+msgstr "フォロワー"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__is_read
 msgid "Is Read"
-msgstr "Est lu"
+msgstr "読む"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__job_ids
 msgid "Job"
-msgstr "Poste"
+msgstr "仕事内容"
 
 #. module: queue_job_batch
 #. odoo-javascript
@@ -213,24 +213,24 @@ msgid ""
 "Job\n"
 "                        Batches"
 msgstr ""
-"Emploi\n"
-"                        Lots"
+"仕事内容\n"
+"                        バッチ"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__job_batch_id
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 msgid "Job Batch"
-msgstr "Lot de travaux"
+msgstr "ジョブバッチ"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__job_count
 msgid "Job Count"
-msgstr "Nombre de travaux"
+msgstr "仕事数"
 
 #. module: queue_job_batch
 #: model:res.groups,name:queue_job_batch.group_queue_job_batch_user
 msgid "Job Queue Batch User"
-msgstr "Utilisateur des lots de file d'attente de travaux"
+msgstr "ジョブキューバッチユーザー"
 
 #. module: queue_job_batch
 #. odoo-javascript
@@ -241,124 +241,124 @@ msgstr "Utilisateur des lots de file d'attente de travaux"
 #: model:ir.ui.menu,name:queue_job_batch.menu_queue_job_batch
 #, python-format
 msgid "Job batches"
-msgstr "Lots de travaux"
+msgstr "ジョブバッチ"
 
 #. module: queue_job_batch
 #: model:ir.actions.act_window,name:queue_job_batch.action_queue_job_related
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_form
 msgid "Jobs"
-msgstr "Travaux"
+msgstr "求人情報"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch____last_update
 msgid "Last Modified on"
-msgstr "Dernière modification le"
+msgstr "最終更新日"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Pièce jointe principale"
+msgstr "主な添付ファイル"
 
 #. module: queue_job_batch
 #. odoo-javascript
 #: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
 #, python-format
 msgid "Mark as Read"
-msgstr "Marquer comme lu"
+msgstr "既読にする"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_has_error
 msgid "Message Delivery error"
-msgstr "Erreur lors de livraison du message"
+msgstr "メッセージ配信エラー"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_ids
 msgid "Messages"
-msgstr "Messages"
+msgstr "メッセージ"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Mon activité Date limite"
+msgstr "私の活動期限"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__name
 msgid "Name"
-msgstr "Nom"
+msgstr "名称"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr "Prochain événement du calendrier d'activités"
+msgstr "次の活動カレンダー イベント"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Échéance de la prochaine activité"
+msgstr "次のアクティビティ締切"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_summary
 msgid "Next Activity Summary"
-msgstr "Résumé de la prochaine activité"
+msgstr "次の活動概要"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_type_id
 msgid "Next Activity Type"
-msgstr "Type de la prochaine activité"
+msgstr "次のアクティビティタイプ"
 
 #. module: queue_job_batch
 #. odoo-javascript
 #: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
 #, python-format
 msgid "No jobs to view."
-msgstr "Aucun travail à voir."
+msgstr "表示する求人はありません。"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_needaction_counter
 msgid "Number of Actions"
-msgstr "Nombre d'activités"
+msgstr "アクション数"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_has_error_counter
 msgid "Number of errors"
-msgstr "Nombre d'erreurs"
+msgstr "エラー数"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Nombre de messages nécessitant une action"
+msgstr "アクションが必要なメッセージの数"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Nombre de messages avec erreur de livraison"
+msgstr "配信エラーのメッセージ数"
 
 #. module: queue_job_batch
 #: model:ir.model,name:queue_job_batch.model_queue_job
 msgid "Queue Job"
-msgstr "File d'attente des travaux"
+msgstr "キュージョブ"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__activity_user_id
 msgid "Responsible User"
-msgstr "Responsable"
+msgstr "担当ユーザー"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr "Erreur d'envoi de SMS"
+msgstr "SMS 配信エラー"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__smart_search
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__smart_search
 msgid "Smart Search"
-msgstr "Smart Search"
+msgstr "スマート検索"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__state
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "State"
-msgstr "État"
+msgstr "状態"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_state
@@ -368,59 +368,59 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Statut basé sur les activités\n"
-"En retard : La date d'échéance est déjà dépassée\n"
-"Aujourd'hui : L'activité est planifiée pour aujourd'hui\n"
-"Planifiées : activités futures."
+"アクティビティに基づくステータス\n"
+"期限切れ：期限はすでに過ぎています。\n"
+"今日アクティビティの日付は今日です\n"
+"計画中今後の活動"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job__count_pending_changeset_changes
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
-msgstr "Le nombre de modifications en attente de cet enregistrement"
+msgstr "このレコードの保留中の変更数"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job__count_pending_changesets
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__count_pending_changesets
 msgid "The number of pending changesets of this record"
-msgstr "Le nombre de jeux de modifications en attente pour cet enregistrement"
+msgstr "このレコードの保留中のチェンジセットの数"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job__count_changesets
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__count_changesets
 msgid "The overall number of changesets of this record"
-msgstr "Le nombre total de modifications de cet enregistrement"
+msgstr "このレコードの全体のチェンジセット数"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Type d'activité d'exception enregistrée."
+msgstr "記録された例外活動の種類"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__user_id
 #: model_terms:ir.ui.view,arch_db:queue_job_batch.view_queue_job_batch_search
 msgid "User"
-msgstr "Utilisateur"
+msgstr "ユーザー"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job__user_can_see_changeset
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__user_can_see_changeset
 msgid "User Can See Changeset"
-msgstr "L'utilisateur peut voir le jeu de modifications"
+msgstr "ユーザーは変更セットを見ることができます"
 
 #. module: queue_job_batch
 #. odoo-javascript
 #: code:addons/queue_job_batch/static/src/xml/queue_job_batch_menu.xml:0
 #, python-format
 msgid "View All"
-msgstr "Voir tout"
+msgstr "すべてを表示"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,field_description:queue_job_batch.field_queue_job_batch__website_message_ids
 msgid "Website Messages"
-msgstr "Messages du site web"
+msgstr "ウェブサイトのメッセージ"
 
 #. module: queue_job_batch
 #: model:ir.model.fields,help:queue_job_batch.field_queue_job_batch__website_message_ids
 msgid "Website communication history"
-msgstr "Historique de la communication sur le site web"
+msgstr "ウェブサイトコミュニケーション履歴"

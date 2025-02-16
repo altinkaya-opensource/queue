@@ -20,42 +20,42 @@ msgstr ""
 #: code:addons/base_import_async/models/queue_job.py:0
 #, python-format
 msgid "Attachment"
-msgstr "Archivo adjunto"
+msgstr "附件"
 
 #. module: base_import_async
 #: model:ir.model,name:base_import_async.model_base_import_import
 msgid "Base Import"
-msgstr "Importación Base"
+msgstr "基础进口"
 
 #. module: base_import_async
 #: model:ir.model.fields,field_description:base_import_async.field_base_import_import__changeset_change_ids
 #: model:ir.model.fields,field_description:base_import_async.field_queue_job__changeset_change_ids
 msgid "Changeset Changes"
-msgstr "Cambios en el conjunto de cambios"
+msgstr "变更集变更"
 
 #. module: base_import_async
 #: model:ir.model.fields,field_description:base_import_async.field_base_import_import__changeset_ids
 #: model:ir.model.fields,field_description:base_import_async.field_queue_job__changeset_ids
 msgid "Changesets"
-msgstr "Changesets"
+msgstr "变更集"
 
 #. module: base_import_async
 #: model:ir.model.fields,field_description:base_import_async.field_base_import_import__count_changesets
 #: model:ir.model.fields,field_description:base_import_async.field_queue_job__count_changesets
 msgid "Count Changesets"
-msgstr "Contar los cambios"
+msgstr "计数变更集"
 
 #. module: base_import_async
 #: model:ir.model.fields,field_description:base_import_async.field_base_import_import__count_pending_changeset_changes
 #: model:ir.model.fields,field_description:base_import_async.field_queue_job__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
-msgstr "Contar cambios pendientes"
+msgstr "统计待处理的变更集变更"
 
 #. module: base_import_async
 #: model:ir.model.fields,field_description:base_import_async.field_base_import_import__count_pending_changesets
 #: model:ir.model.fields,field_description:base_import_async.field_queue_job__count_pending_changesets
 msgid "Count Pending Changesets"
-msgstr "Contar conjuntos de cambios pendientes"
+msgstr "统计待处理的变更集"
 
 #. module: base_import_async
 #. odoo-python
@@ -64,58 +64,56 @@ msgstr "Contar conjuntos de cambios pendientes"
 msgid ""
 "Import %(model)s from file %(file_name)s - #%(chunk)s - lines %(from)s to "
 "%(to)s"
-msgstr ""
-"Importar %(model)s del archivo %(file_name)s - #%(chunk)s - líneas %(from)s "
-"a %(to)s"
+msgstr "从文件 %(file_name)s导入 %(model)s--#%(chunk)s--行 %(from)s到 %(to)s"
 
 #. module: base_import_async
 #. odoo-python
 #: code:addons/base_import_async/models/base_import_import.py:0
 #, python-format
 msgid "Import %(model)s from file %(from_file)s"
-msgstr "Importar %(model)s del fichero %(from_file)s"
+msgstr "从文件 %(from_file)s导入 %(模型)"
 
 #. module: base_import_async
 #. odoo-javascript
 #: code:addons/base_import_async/static/src/xml/import.xml:0
 #, python-format
 msgid "Import in the background"
-msgstr "Importación en segundo plano"
+msgstr "后台导入"
 
 #. module: base_import_async
 #: model:ir.model,name:base_import_async.model_queue_job
 msgid "Queue Job"
-msgstr "Cola de Trabajo"
+msgstr "排队工作"
 
 #. module: base_import_async
 #: model:ir.model.fields,field_description:base_import_async.field_base_import_import__smart_search
 #: model:ir.model.fields,field_description:base_import_async.field_queue_job__smart_search
 msgid "Smart Search"
-msgstr "Búsqueda inteligente"
+msgstr "智能搜索"
 
 #. module: base_import_async
 #: model:ir.model.fields,help:base_import_async.field_base_import_import__count_pending_changeset_changes
 #: model:ir.model.fields,help:base_import_async.field_queue_job__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
-msgstr "El número de cambios pendientes de este registro"
+msgstr "此记录的待更改次数"
 
 #. module: base_import_async
 #: model:ir.model.fields,help:base_import_async.field_base_import_import__count_pending_changesets
 #: model:ir.model.fields,help:base_import_async.field_queue_job__count_pending_changesets
 msgid "The number of pending changesets of this record"
-msgstr "El número de cambios pendientes de este registro"
+msgstr "此记录的待处理更改集数量"
 
 #. module: base_import_async
 #: model:ir.model.fields,help:base_import_async.field_base_import_import__count_changesets
 #: model:ir.model.fields,help:base_import_async.field_queue_job__count_changesets
 msgid "The overall number of changesets of this record"
-msgstr "El número total de cambios de este registro"
+msgstr "该记录的更改集总数"
 
 #. module: base_import_async
 #: model:ir.model.fields,field_description:base_import_async.field_base_import_import__user_can_see_changeset
 #: model:ir.model.fields,field_description:base_import_async.field_queue_job__user_can_see_changeset
 msgid "User Can See Changeset"
-msgstr "El usuario puede ver el conjunto de cambios"
+msgstr "用户可查看变更集"
 
 #. module: base_import_async
 #. odoo-javascript
@@ -125,23 +123,18 @@ msgid ""
 "When checked, the import will be executed as a background job, after "
 "splitting your file in small chunks that will be processed independently. "
 "Use this to import very large files."
-msgstr ""
-"Si esta opción está seleccionada, la importación se ejecutará como un "
-"trabajo en segundo plano, tras dividir el archivo en pequeños trozos que se "
-"procesarán de forma independiente. Utilícelo para importar archivos muy "
-"grandes."
+msgstr "选中后，导入将作为后台作业执行，然后将文件分割成小块独立处理。使用此选项可导入超大文件。"
 
 #. module: base_import_async
 #. odoo-javascript
 #: code:addons/base_import_async/static/src/js/import.js:0
 #, python-format
 msgid "You can check the status of this job in menu 'Queue / Jobs'."
-msgstr ""
-"Puede comprobar el estado de este trabajo en el menú 'Cola / Trabajos'."
+msgstr "您可以在菜单 \"队列/工作 \"中查看此工作的状态。"
 
 #. module: base_import_async
 #. odoo-javascript
 #: code:addons/base_import_async/static/src/js/import.js:0
 #, python-format
 msgid "Your request is being processed"
-msgstr "Su solicitud está siendo procesada"
+msgstr "您的请求正在处理中"

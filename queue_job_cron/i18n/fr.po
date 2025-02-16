@@ -22,20 +22,20 @@ msgid ""
 "skipped. By default, odoo never runs the same cron job in parallel. This "
 "option is therefore set to True by default when job is run as a queue job."
 msgstr ""
-"Evite la ejecución paralela. Si el trabajo cron ya se está ejecutando, el "
-"nuevo se omitirá. Por defecto, odoo nunca ejecuta el mismo trabajo cron en "
-"paralelo. Por lo tanto, esta opción se establece en True por defecto cuando "
-"el trabajo se ejecuta como un trabajo de cola."
+"Évitez les exécutions parallèles. Si le job cron est déjà en cours "
+"d'exécution, le nouveau sera ignoré. Par défaut, Odoo n'exécute jamais le "
+"même job cron en parallèle. Cette option est donc positionnée à True par "
+"défaut lorsque le job est exécuté en tant que job de file d'attente."
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__changeset_change_ids
 msgid "Changeset Changes"
-msgstr "Cambios en el conjunto de cambios"
+msgstr "Changeset Changes"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__changeset_ids
 msgid "Changesets"
-msgstr "Changesets"
+msgstr "Changements"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__channel_id
@@ -45,61 +45,60 @@ msgstr "Canal"
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__count_changesets
 msgid "Count Changesets"
-msgstr "Contar los cambios"
+msgstr "Comptez les modifications"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
-msgstr "Contar cambios pendientes"
+msgstr "Comptez les modifications en cours du jeu de modifications"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__count_pending_changesets
 msgid "Count Pending Changesets"
-msgstr "Contar conjuntos de cambios pendientes"
+msgstr "Comptez les jeux de modifications en attente"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__no_parallel_queue_job_run
 msgid "No Parallel Queue Job Run"
-msgstr "No se Ejecuta el Trabajo en Cola Paralela"
+msgstr "Pas d'exécution de travaux en file d'attente parallèle"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__run_as_queue_job
 msgid "Run As Queue Job"
-msgstr "Ejecutar como trabajo en cola"
+msgstr "Travail en file d'attente"
 
 #. module: queue_job_cron
 #: model:ir.model,name:queue_job_cron.model_ir_cron
 msgid "Scheduled Actions"
-msgstr "Acciones planificadas"
+msgstr "Actions planifiées"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__smart_search
 msgid "Smart Search"
-msgstr "Búsqueda inteligente"
+msgstr "Smart Search"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,help:queue_job_cron.field_ir_cron__run_as_queue_job
 msgid "Specify if this cron should be ran as a queue job"
 msgstr ""
-"Especifica si esta acción planificada deberá ser ejecutada como un trabajo "
-"en cola"
+"Indiquez si ce cron doit être exécuté comme un travail de file d'attente."
 
 #. module: queue_job_cron
 #: model:ir.model.fields,help:queue_job_cron.field_ir_cron__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
-msgstr "El número de cambios pendientes de este registro"
+msgstr "Le nombre de modifications en attente de cet enregistrement"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,help:queue_job_cron.field_ir_cron__count_pending_changesets
 msgid "The number of pending changesets of this record"
-msgstr "El número de cambios pendientes de este registro"
+msgstr "Le nombre de jeux de modifications en attente pour cet enregistrement"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,help:queue_job_cron.field_ir_cron__count_changesets
 msgid "The overall number of changesets of this record"
-msgstr "El número total de cambios de este registro"
+msgstr "Le nombre total de modifications de cet enregistrement"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__user_can_see_changeset
 msgid "User Can See Changeset"
-msgstr "El usuario puede ver el conjunto de cambios"
+msgstr "L'utilisateur peut voir le jeu de modifications"

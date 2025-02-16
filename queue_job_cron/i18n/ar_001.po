@@ -22,84 +22,82 @@ msgid ""
 "skipped. By default, odoo never runs the same cron job in parallel. This "
 "option is therefore set to True by default when job is run as a queue job."
 msgstr ""
-"Evite la ejecución paralela. Si el trabajo cron ya se está ejecutando, el "
-"nuevo se omitirá. Por defecto, odoo nunca ejecuta el mismo trabajo cron en "
-"paralelo. Por lo tanto, esta opción se establece en True por defecto cuando "
-"el trabajo se ejecuta como un trabajo de cola."
+"تجنب التشغيل المتوازي. إذا كانت مهمة cron job قيد التشغيل بالفعل، فسيتم تخطي"
+" المهمة الجديدة. بشكل افتراضي، لا يقوم odoo أبدًا بتشغيل نفس مهمة cron "
+"بالتوازي. لذلك يتم تعيين هذا الخيار على صواب افتراضيًا عند تشغيل المهمة "
+"كمهمة في قائمة انتظار."
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__changeset_change_ids
 msgid "Changeset Changes"
-msgstr "Cambios en el conjunto de cambios"
+msgstr "تغييرات مجموعة التغييرات"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__changeset_ids
 msgid "Changesets"
-msgstr "Changesets"
+msgstr "مجموعات التغييرات"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__channel_id
 msgid "Channel"
-msgstr "Canal"
+msgstr "القناة"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__count_changesets
 msgid "Count Changesets"
-msgstr "Contar los cambios"
+msgstr "عدد التغييرات"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__count_pending_changeset_changes
 msgid "Count Pending Changeset Changes"
-msgstr "Contar cambios pendientes"
+msgstr "عدد تغييرات مجموعة التغييرات المعلقة"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__count_pending_changesets
 msgid "Count Pending Changesets"
-msgstr "Contar conjuntos de cambios pendientes"
+msgstr "عدد مجموعات التغييرات المعلقة"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__no_parallel_queue_job_run
 msgid "No Parallel Queue Job Run"
-msgstr "No se Ejecuta el Trabajo en Cola Paralela"
+msgstr "عدم تشغيل وظيفة قائمة انتظار موازية"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__run_as_queue_job
 msgid "Run As Queue Job"
-msgstr "Ejecutar como trabajo en cola"
+msgstr "تشغيل كوظيفة قائمة انتظار"
 
 #. module: queue_job_cron
 #: model:ir.model,name:queue_job_cron.model_ir_cron
 msgid "Scheduled Actions"
-msgstr "Acciones planificadas"
+msgstr "الإجراءات المجدولة "
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__smart_search
 msgid "Smart Search"
-msgstr "Búsqueda inteligente"
+msgstr "البحث الذكي"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,help:queue_job_cron.field_ir_cron__run_as_queue_job
 msgid "Specify if this cron should be ran as a queue job"
-msgstr ""
-"Especifica si esta acción planificada deberá ser ejecutada como un trabajo "
-"en cola"
+msgstr "حدد ما إذا كان ينبغي تشغيل هذا التسلسل الزمني كمهمة في قائمة انتظار"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,help:queue_job_cron.field_ir_cron__count_pending_changeset_changes
 msgid "The number of pending changes of this record"
-msgstr "El número de cambios pendientes de este registro"
+msgstr "عدد التغييرات المعلقة لهذا السجل"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,help:queue_job_cron.field_ir_cron__count_pending_changesets
 msgid "The number of pending changesets of this record"
-msgstr "El número de cambios pendientes de este registro"
+msgstr "عدد مجموعات التغييرات المعلقة لهذا السجل"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,help:queue_job_cron.field_ir_cron__count_changesets
 msgid "The overall number of changesets of this record"
-msgstr "El número total de cambios de este registro"
+msgstr "العدد الإجمالي للتغييرات في هذا السجل"
 
 #. module: queue_job_cron
 #: model:ir.model.fields,field_description:queue_job_cron.field_ir_cron__user_can_see_changeset
 msgid "User Can See Changeset"
-msgstr "El usuario puede ver el conjunto de cambios"
+msgstr "يمكن للمستخدم الاطلاع على مجموعة التغييرات"

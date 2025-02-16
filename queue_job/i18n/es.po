@@ -4,28 +4,25 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-01 15:33+0000\n"
-"Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
-"Language-Team: none\n"
-"Language: es\n"
+"POT-Creation-Date: 2025-02-14 19:25+0000\n"
+"PO-Revision-Date: 2025-02-14 19:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"Plural-Forms: \n"
 
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_form
 msgid ""
 "<br/>\n"
-"                            <span class=\"oe_grey oe_inline\"> If the max. "
-"retries is 0, the number of retries is infinite.</span>"
+"                            <span class=\"oe_grey oe_inline\"> If the max. retries is 0, the number of retries is infinite.</span>"
 msgstr ""
 "<br/>\n"
-"                             <span class=\"oe_grey oe_inline\"> Si el máx. "
-"reintentos es 0, el número de reintentos es infinito.</span>"
+"                             <span class=\"oe_grey oe_inline\"> Si el máx. reintentos es 0, el número de reintentos es infinito.</span>"
 
 #. module: queue_job
 #. odoo-python
@@ -183,7 +180,7 @@ msgstr "Creado por"
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Created date"
-msgstr ""
+msgstr "Fecha de creación"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job_channel__create_date
@@ -499,17 +496,17 @@ msgstr "Kwargs"
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Last 24 hours"
-msgstr ""
+msgstr "Últimas 24 horas"
 
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Last 30 days"
-msgstr ""
+msgstr "Últimos 30 días"
 
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Last 7 days"
-msgstr ""
+msgstr "Últimos 7 días"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job____last_update
@@ -600,6 +597,11 @@ msgid "Name"
 msgstr "Nombre"
 
 #. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "Próximo evento del calendario de actividades"
+
+#. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr "Fecha límite de siguiente actividad"
@@ -663,18 +665,12 @@ msgstr "Se requiere un canal padre."
 #. module: queue_job
 #: model:ir.model.fields,help:queue_job.field_queue_job_function__edit_retry_pattern
 msgid ""
-"Pattern expressing from the count of retries on retryable errors, the number "
-"of of seconds to postpone the next execution. Setting the number of seconds "
-"to a 2-element tuple or list will randomize the retry interval between the 2 "
-"values.\n"
+"Pattern expressing from the count of retries on retryable errors, the number of of seconds to postpone the next execution. Setting the number of seconds to a 2-element tuple or list will randomize the retry interval between the 2 values.\n"
 "Example: {1: 10, 5: 20, 10: 30, 15: 300}.\n"
 "Example: {1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}.\n"
 "See the module description for details."
 msgstr ""
-"Patrón que expresa cuántos segundos se pospondrá la próxima ejecución, "
-"basado en el número de reintentos de los errores reintentables. Si se usa "
-"una tupla o lista de 2 elementos para expresar el número de segundos, se "
-"escogerá un número aleatorio entre ambos valores.\n"
+"Patrón que expresa cuántos segundos se pospondrá la próxima ejecución, basado en el número de reintentos de los errores reintentables. Si se usa una tupla o lista de 2 elementos para expresar el número de segundos, se escogerá un número aleatorio entre ambos valores.\n"
 "Ejemplo: {1: 10, 5: 20, 10: 30, 15: 300}.\n"
 "Ejemplo: {1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}.\n"
 "Vea la descripción del módulo para más detalles."
@@ -698,7 +694,7 @@ msgstr "Cola"
 #. module: queue_job
 #: model:ir.model,name:queue_job.model_queue_job
 msgid "Queue Job"
-msgstr "Cola de trabajos"
+msgstr "Cola de Trabajo"
 
 #. module: queue_job
 #. odoo-python
@@ -878,15 +874,10 @@ msgstr "Tarea"
 #. module: queue_job
 #: model:ir.model.fields,help:queue_job.field_queue_job_function__edit_related_action
 msgid ""
-"The action when the button *Related Action* is used on a job. The default "
-"action is to open the view of the record related to the job. Configured as a "
-"dictionary with optional keys: enable, func_name, kwargs.\n"
+"The action when the button *Related Action* is used on a job. The default action is to open the view of the record related to the job. Configured as a dictionary with optional keys: enable, func_name, kwargs.\n"
 "See the module description for details."
 msgstr ""
-"Acción cuando se usa el botón *Acción relacionada* en un trabajo. La acción "
-"por defecto es abrir la vista del registro relacionado con el trabajo. Se "
-"configura como un diccionario con estas claves opcionales: enable, "
-"func_name, kwargs.\n"
+"Acción cuando se usa el botón *Acción relacionada* en un trabajo. La acción por defecto es abrir la vista del registro relacionado con el trabajo. Se configura como un diccionario con estas claves opcionales: enable, func_name, kwargs.\n"
 "Vea la descripción del módulo para más detalles."
 
 #. module: queue_job
@@ -942,13 +933,11 @@ msgstr "UUID"
 msgid ""
 "Unexpected format of Related Action for {}.\n"
 "Example of valid format:\n"
-"{{\"enable\": True, \"func_name\": \"related_action_foo\", "
-"\"kwargs\" {{\"limit\": 10}}}}"
+"{{\"enable\": True, \"func_name\": \"related_action_foo\", \"kwargs\" {{\"limit\": 10}}}}"
 msgstr ""
 "Formato inesperado en la acción relacionada con {}.\n"
 "Ejemplo de un formato válido:\n"
-"{{\"enable\": True, \"func_name\": \"related_action_foo\", "
-"\"kwargs\" {{\"limit\": 10}}}}"
+"{{\"enable\": True, \"func_name\": \"related_action_foo\", \"kwargs\" {{\"limit\": 10}}}}"
 
 #. module: queue_job
 #. odoo-python
@@ -960,6 +949,10 @@ msgid ""
 "{{1: 300, 5: 600, 10: 1200, 15: 3000}}\n"
 "{{1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}}"
 msgstr ""
+"Formato inesperado del patrón de reintento para {}.\n"
+"Ejemplo de formatos válidos:\n"
+"{{1: 300, 5: 600, 10: 1200, 15: 3000}}\n"
+"{{1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}}"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__user_id
@@ -981,40 +974,3 @@ msgstr "Asistente para volver a poner en cola una selección de trabajos"
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__worker_pid
 msgid "Worker Pid"
 msgstr "Pid del trabajador"
-
-#, python-format
-#~ msgid ""
-#~ "Unexpected format of Retry Pattern for {}.\n"
-#~ "Example of valid format:\n"
-#~ "{{1: 300, 5: 600, 10: 1200, 15: 3000}}"
-#~ msgstr ""
-#~ "Formato inesperado en el patrón de reintentos de {}.\n"
-#~ "Ejemplo de un formato válido:\n"
-#~ "{{1: 300, 5: 600, 10: 1200, 15: 3000}}"
-
-#, python-format
-#~ msgid ""
-#~ "Something bad happened during the execution of the job. More details in "
-#~ "the 'Exception Information' section."
-#~ msgstr ""
-#~ "Algo malo pasó durante la ejecución del trabajo. Más detalles en la "
-#~ "sección 'Información de la excepción'."
-
-#~ msgid "SMS Delivery error"
-#~ msgstr "Error de entrega del SMS"
-
-#~ msgid "Number of messages which requires an action"
-#~ msgstr "Número de mensajes que requieren una acción"
-
-#~ msgid ""
-#~ "<span class=\"oe_grey oe_inline\"> If the max. retries is 0, the number "
-#~ "of retries is infinite.</span>"
-#~ msgstr ""
-#~ "<span class=\"oe_grey oe_inline\"> Si los reintentos máximos son 0, el "
-#~ "número de reintentos es infinito.</span>"
-
-#~ msgid "Override Channel"
-#~ msgstr "Sobreescribir canal"
-
-#~ msgid "Number of unread messages"
-#~ msgstr "Número de mensajes no leidos"
