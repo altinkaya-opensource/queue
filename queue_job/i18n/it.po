@@ -6,23 +6,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 19:25+0000\n"
-"PO-Revision-Date: 2025-02-14 19:25+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"PO-Revision-Date: 2025-01-30 14:06+0000\n"
+"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
+"Language-Team: none\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #. module: queue_job
 #: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_form
 msgid ""
 "<br/>\n"
-"                            <span class=\"oe_grey oe_inline\"> If the max. retries is 0, the number of retries is infinite.</span>"
+"                            <span class=\"oe_grey oe_inline\"> If the max. "
+"retries is 0, the number of retries is infinite.</span>"
 msgstr ""
 "<br/>\n"
-"                            <span class=\"oe_grey oe_inline\"> Se il massimo di tentativi è 0, il numero di tentativi è infinito.</span>"
+"                            <span class=\"oe_grey oe_inline\"> Se il massimo "
+"di tentativi è 0, il numero di tentativi è infinito.</span>"
 
 #. module: queue_job
 #. odoo-python
@@ -594,11 +597,6 @@ msgid "Name"
 msgstr "Nome"
 
 #. module: queue_job
-#: model:ir.model.fields,field_description:queue_job.field_queue_job__activity_calendar_event_id
-msgid "Next Activity Calendar Event"
-msgstr "Prossimo evento del calendario attività"
-
-#. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr "Scadenza prossima attività"
@@ -662,12 +660,18 @@ msgstr "Richiesto canale padre."
 #. module: queue_job
 #: model:ir.model.fields,help:queue_job.field_queue_job_function__edit_retry_pattern
 msgid ""
-"Pattern expressing from the count of retries on retryable errors, the number of of seconds to postpone the next execution. Setting the number of seconds to a 2-element tuple or list will randomize the retry interval between the 2 values.\n"
+"Pattern expressing from the count of retries on retryable errors, the number "
+"of of seconds to postpone the next execution. Setting the number of seconds "
+"to a 2-element tuple or list will randomize the retry interval between the 2 "
+"values.\n"
 "Example: {1: 10, 5: 20, 10: 30, 15: 300}.\n"
 "Example: {1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}.\n"
 "See the module description for details."
 msgstr ""
-"Schema derivante dal conteggio dei tentativi degli errori ripetibili, numero di secondi per ritardare l'esecuzione successiva. Impostando il numero di secondi ad una tupla di due elementi o un elenco renderà causale l'intervallo tra i tentativi tra i due valori.\n"
+"Schema derivante dal conteggio dei tentativi degli errori ripetibili, numero "
+"di secondi per ritardare l'esecuzione successiva. Impostando il numero di "
+"secondi ad una tupla di due elementi o un elenco renderà causale "
+"l'intervallo tra i tentativi tra i due valori.\n"
 "Esempio: {1: 10, 5: 20, 10: 30, 15: 300}.\n"
 "Esempio: {1: (1, 10), 5: (11, 20), 10: (21, 30), 15: (100, 300)}.\n"
 "Vedere la descrizione del modulo per i dettagli."
@@ -830,8 +834,8 @@ msgid ""
 "Something bad happened during the execution of job %s. More details in the "
 "'Exception Information' section."
 msgstr ""
-"Qualcosa è andato male durante l'esecuzione del lavoro %s. Maggiori dettagli"
-" nella sezione 'informazioni eccezione'."
+"Qualcosa è andato male durante l'esecuzione del lavoro %s. Maggiori dettagli "
+"nella sezione 'informazioni eccezione'."
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__date_started
@@ -871,10 +875,14 @@ msgstr "Lavoro"
 #. module: queue_job
 #: model:ir.model.fields,help:queue_job.field_queue_job_function__edit_related_action
 msgid ""
-"The action when the button *Related Action* is used on a job. The default action is to open the view of the record related to the job. Configured as a dictionary with optional keys: enable, func_name, kwargs.\n"
+"The action when the button *Related Action* is used on a job. The default "
+"action is to open the view of the record related to the job. Configured as a "
+"dictionary with optional keys: enable, func_name, kwargs.\n"
 "See the module description for details."
 msgstr ""
-"L'azione quando si usa il pulsante 'Azione collegata' in un lavoro. L'azione predefinita è di aprire la vista del record collegato al lavoro. Configrata come dizionari con chiavi opzionali: enable, func_name, kwargs.\n"
+"L'azione quando si usa il pulsante 'Azione collegata' in un lavoro. L'azione "
+"predefinita è di aprire la vista del record collegato al lavoro. Configrata "
+"come dizionari con chiavi opzionali: enable, func_name, kwargs.\n"
 "Vedere la descrizione del modulo per i dettagli."
 
 #. module: queue_job
@@ -929,11 +937,13 @@ msgstr "UUID"
 msgid ""
 "Unexpected format of Related Action for {}.\n"
 "Example of valid format:\n"
-"{{\"enable\": True, \"func_name\": \"related_action_foo\", \"kwargs\" {{\"limit\": 10}}}}"
+"{{\"enable\": True, \"func_name\": \"related_action_foo\", "
+"\"kwargs\" {{\"limit\": 10}}}}"
 msgstr ""
 "Formato inaspettato di azione colegata per {}.\n"
 "Esempio di formato valido:\n"
-"{{\"enable\": True, \"func_name\": \"related_action_foo\", \"kwargs\" {{\"limit\": 10}}}}"
+"{{\"enable\": True, \"func_name\": \"related_action_foo\", "
+"\"kwargs\" {{\"limit\": 10}}}}"
 
 #. module: queue_job
 #. odoo-python
@@ -970,3 +980,13 @@ msgstr "Procedura guidata per riaccodare una selezione di lavori"
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__worker_pid
 msgid "Worker Pid"
 msgstr "PID worker"
+
+#, python-format
+#~ msgid ""
+#~ "Unexpected format of Retry Pattern for {}.\n"
+#~ "Example of valid format:\n"
+#~ "{{1: 300, 5: 600, 10: 1200, 15: 3000}}"
+#~ msgstr ""
+#~ "Formato inaspettato di schema tentativo per {}.\n"
+#~ "Esempio di formato valido:\n"
+#~ "{{1: 300, 5: 600, 10: 1200, 15: 3000}}"
