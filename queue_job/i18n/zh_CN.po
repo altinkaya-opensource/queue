@@ -57,6 +57,19 @@ msgid "Activity Type Icon"
 msgstr ""
 
 #. module: queue_job
+#: model:ir.model.fields,field_description:queue_job.field_queue_job_function__allow_commit
+msgid "Allow Commit"
+msgstr ""
+
+#. module: queue_job
+#: model:ir.model.fields,help:queue_job.field_queue_job_function__allow_commit
+msgid ""
+"Allows the job to commit transactions during execution. Under the hood, this "
+"executes the job in a new database cursor, which incurs an overhead as it "
+"requires an extra connection to the database. "
+msgstr ""
+
+#. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__args
 msgid "Args"
 msgstr "位置参数"
@@ -670,6 +683,7 @@ msgstr "等待"
 
 #. module: queue_job
 #: model:ir.model.fields,field_description:queue_job.field_queue_job__priority
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
 msgid "Priority"
 msgstr "优先级"
 
@@ -907,6 +921,11 @@ msgid "Time required to execute this job in seconds. Average when grouped."
 msgstr ""
 
 #. module: queue_job
+#: model_terms:ir.ui.view,arch_db:queue_job.view_queue_job_search
+msgid "Tried many times"
+msgstr ""
+
+#. module: queue_job
 #: model:ir.model.fields,help:queue_job.field_queue_job__activity_exception_decoration
 msgid "Type of the exception activity on record."
 msgstr "记录的异常活动的类型。"
@@ -923,8 +942,8 @@ msgstr "UUID"
 msgid ""
 "Unexpected format of Related Action for {}.\n"
 "Example of valid format:\n"
-"{{\"enable\": True, \"func_name\": \"related_action_foo\", "
-"\"kwargs\" {{\"limit\": 10}}}}"
+"{{\"enable\": True, \"func_name\": \"related_action_foo\", \"kwargs\" "
+"{{\"limit\": 10}}}}"
 msgstr ""
 
 #. module: queue_job

@@ -3,15 +3,16 @@
 
 import logging
 import random
+import time
 from datetime import datetime, timedelta
 
 from odoo import _, api, exceptions, fields, models
-from odoo.tools import config, html_escape
+from odoo.tools import config, html_escape, index_exists
 
 from odoo.addons.base_sparse_field.models.fields import Serialized
 
 from ..delay import Graph
-from ..exception import JobError
+from ..exception import JobError, RetryableJobError
 from ..fields import JobSerialized
 from ..job import (
     CANCELLED,
@@ -91,7 +92,7 @@ class QueueJob(models.Model):
     func_string = fields.Char(string="Task", readonly=True)
 
     state = fields.Selection(STATES, readonly=True, required=True, index=True)
-    priority = fields.Integer()
+    priority = fields.Integer(group_operator=False)
     exc_name = fields.Char(string="Exception", readonly=True)
     exc_message = fields.Char(string="Exception Message", readonly=True, tracking=True)
     exc_info = fields.Text(string="Exception Info", readonly=True)
@@ -104,6 +105,7 @@ class QueueJob(models.Model):
     exec_time = fields.Float(
         string="Execution Time (avg)",
         group_operator="avg",
+        readonly=True,
         help="Time required to execute this job in seconds. Average when grouped.",
     )
     date_cancelled = fields.Datetime(readonly=True)
@@ -130,15 +132,20 @@ class QueueJob(models.Model):
     worker_pid = fields.Integer(readonly=True)
 
     def init(self):
-        self._cr.execute(
-            "SELECT indexname FROM pg_indexes WHERE indexname = %s ",
-            ("queue_job_identity_key_state_partial_index",),
-        )
-        if not self._cr.fetchone():
+        index_1 = "queue_job_identity_key_state_partial_index"
+        index_2 = "queue_job_channel_date_done_date_created_index"
+        if not index_exists(self._cr, index_1):
+            # Used by Job.job_record_with_same_identity_key
             self._cr.execute(
                 "CREATE INDEX queue_job_identity_key_state_partial_index "
                 "ON queue_job (identity_key) WHERE state in ('pending', "
                 "'enqueued', 'wait_dependencies') AND identity_key IS NOT NULL;"
+            )
+        if not index_exists(self._cr, index_2):
+            # Used by <queue.job>.autovacuum
+            self._cr.execute(
+                "CREATE INDEX queue_job_channel_date_done_date_created_index "
+                "ON queue_job (channel, date_done, date_created);"
             )
 
     @api.depends("records")
@@ -410,10 +417,11 @@ class QueueJob(models.Model):
                         ("channel", "=", channel.complete_name),
                         ("channel", "ilike", channel.complete_name + ".%"),
                     ],
+                    order="date_done, date_created",
                     limit=1000,
                 )
                 if jobs:
-                    jobs.unlink()
+                    jobs.sudo().unlink()
                     if not config["test_enable"]:
                         self.env.cr.commit()  # pylint: disable=E8102
                 else:
@@ -453,7 +461,24 @@ class QueueJob(models.Model):
             )
         return action
 
-    def _test_job(self, failure_rate=0):
+    def _test_job(
+        self,
+        failure_rate=0,
+        job_duration=0,
+        commit_within_job=False,
+        failure_retry_seconds=0,
+    ):
         _logger.info("Running test job.")
         if random.random() <= failure_rate:
-            raise JobError("Job failed")
+            if failure_retry_seconds:
+                raise RetryableJobError(
+                    f"Retryable job failed, will be retried in "
+                    f"{failure_retry_seconds} seconds",
+                    seconds=failure_retry_seconds,
+                )
+            else:
+                raise JobError("Job failed")
+        if job_duration:
+            time.sleep(job_duration)
+        if commit_within_job:
+            self.env.cr.commit()  # pylint: disable=invalid-commit

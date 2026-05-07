@@ -1,4 +1,7 @@
 
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
+# Queue Job
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/queue&target_branch=16.0)
 [![Pre-commit Status](https://github.com/OCA/queue/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/OCA/queue/actions/workflows/pre-commit.yml?query=branch%3A16.0)
 [![Build Status](https://github.com/OCA/queue/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/OCA/queue/actions/workflows/test.yml?query=branch%3A16.0)
@@ -6,8 +9,6 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/queue-16-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/queue-16-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
-# Odoo Queue Job
 
 Asynchronous Job Queue. Delay Model methods in asynchronous jobs, executed in the background as soon as possible or on a schedule. Support Channels to segregates jobs in different queues with different capacities. Unlike scheduled tasks, a job captures arguments for later processing.
 
@@ -21,15 +22,15 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[base_export_async](base_export_async/) | 16.0.1.1.0 |  | Asynchronous export with job queue
-[base_import_async](base_import_async/) | 16.0.1.2.0 |  | Import CSV files in the background
-[queue_job](queue_job/) | 16.0.2.11.5 | <a href='https://github.com/guewen'><img src='https://github.com/guewen.png' width='32' height='32' style='border-radius:50%;' alt='guewen'/></a> | Job Queue
+[base_export_async](base_export_async/) | 16.0.1.2.0 |  | Asynchronous export with job queue
+[base_import_async](base_import_async/) | 16.0.1.2.1 |  | Import CSV files in the background
+[queue_job](queue_job/) | 16.0.3.0.1 | <a href='https://github.com/guewen'><img src='https://github.com/guewen.png' width='32' height='32' style='border-radius:50%;' alt='guewen'/></a> <a href='https://github.com/sbidoul'><img src='https://github.com/sbidoul.png' width='32' height='32' style='border-radius:50%;' alt='sbidoul'/></a> | Job Queue
 [queue_job_batch](queue_job_batch/) | 16.0.1.0.1 |  | Job Queue Batch
 [queue_job_cron](queue_job_cron/) | 16.0.2.1.0 |  | Scheduled Actions as Queue Jobs
 [queue_job_cron_jobrunner](queue_job_cron_jobrunner/) | 16.0.1.1.0 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Run jobs without a dedicated JobRunner
 [queue_job_subscribe](queue_job_subscribe/) | 16.0.1.1.0 |  | Control which users are subscribed to queue job notifications
 [queue_job_web_notify](queue_job_web_notify/) | 16.0.1.0.0 |  | This module allows to display a notification to the related user of a failed job. It uses the web_notify notification feature.
-[test_queue_job](test_queue_job/) | 16.0.2.3.0 |  | Queue Job Tests
+[test_queue_job](test_queue_job/) | 16.0.2.5.0 | <a href='https://github.com/sbidoul'><img src='https://github.com/sbidoul.png' width='32' height='32' style='border-radius:50%;' alt='sbidoul'/></a> | Queue Job Tests
 [test_queue_job_batch](test_queue_job_batch/) | 16.0.1.0.0 |  | Test Job Queue Batch
 
 
