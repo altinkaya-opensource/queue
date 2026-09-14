@@ -407,6 +407,15 @@ class QueueJob(models.Model):
         """
         for channel in self.env["queue.job.channel"].search([]):
             deadline = datetime.now() - timedelta(days=int(channel.removal_interval))
+            # Configured child channels own retention for their whole subtree.
+            child_domain = []
+            for child in channel.search([("parent_id", "=", channel.id)]):
+                child_domain += [
+                    "!",
+                    "|",
+                    ("channel", "=", child.complete_name),
+                    ("channel", "=like", child.complete_name + ".%"),
+                ]
             while True:
                 jobs = self.search(
                     [
@@ -415,8 +424,9 @@ class QueueJob(models.Model):
                         ("date_cancelled", "<=", deadline),
                         "|",
                         ("channel", "=", channel.complete_name),
-                        ("channel", "ilike", channel.complete_name + ".%"),
-                    ],
+                        ("channel", "=like", channel.complete_name + ".%"),
+                    ]
+                    + child_domain,
                     order="date_done, date_created",
                     limit=1000,
                 )

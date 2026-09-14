@@ -66,3 +66,29 @@ class TestQueueJobAutovacuumCronJob(JobCommonCase):
         self.assertEqual(
             len(self.env["queue.job"].search([("channel", "!=", False)])), 0
         )
+
+    def test_dynamic_subchannel_uses_nearest_configured_retention(self):
+        root = self.env.ref("queue_job.channel_root")
+        child = self.env["queue.job.channel"].create(
+            {"name": "retained", "removal_interval": 60, "parent_id": root.id}
+        )
+        retained = self._create_job()
+        retained.write(
+            {
+                "channel": child.complete_name + ".dynamic",
+                "date_done": datetime.now() - timedelta(days=31),
+            }
+        )
+        expired = self._create_job()
+        expired.write(
+            {
+                "channel": root.complete_name + ".dynamic",
+                "date_done": datetime.now() - timedelta(days=31),
+            }
+        )
+        self.queue_job.autovacuum()
+        self.assertTrue(retained.exists())
+        self.assertFalse(expired.exists())
+        retained.date_done = datetime.now() - timedelta(days=61)
+        self.queue_job.autovacuum()
+        self.assertFalse(retained.exists())
